@@ -173,6 +173,9 @@
       {% else %}
         {% include "partial/copyright.html" %}
       {% endif %}
+      {% if FAVICON_LOGO_LICENCE %}
+        {% include "partial/favicon_logo.html" %}
+      {% endif %}
     </footer>
   </main>
 
