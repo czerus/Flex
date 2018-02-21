@@ -198,5 +198,8 @@
   {% if GITHUB_CORNER_URL %}
   {% include 'partial/github.html' %}
   {% endif %}
+  {% if DISQUS_COMMENTS_COUNT %}
+    <script id="dsq-count-scr" src="//testing-linux-git-stuff.disqus.com/count.js" async></script>
+  {% endif %}
 </body>
 </html>

@@ -28,6 +28,10 @@
           {% endfor %}
       {% endif %}
 
+      {% if DISQUS_COMMENTS_COUNT %}
+        &#8226; <a href="{{ SITEURL }}/{{ article.url }}#disqus_thread"></a>
+      {% endif %}
+
       {% if 'post_stats' in PLUGINS %}
         &#8226; {{ article.stats['read_mins'] }} min read
       {% endif %}
