@@ -98,3 +98,7 @@ msgstr ""
 msgid "Newer Posts"
 msgstr ""
 
+#: templates/partial/favicon_logo.html:2
+#, python-format
+msgid "%(favicon)s and %(logo)s pictures by %(author)s licensed under %(licence)s"
+msgstr ""

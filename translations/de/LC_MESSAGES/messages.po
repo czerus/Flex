@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: templates/archives.html:2 templates/archives.html:7
 msgid "Archives"
@@ -99,4 +99,9 @@ msgstr "&Auml;ltere Artikel"
 #: templates/partial/pagination.html:10
 msgid "Newer Posts"
 msgstr "Neuere Artikel"
+
+#: templates/partial/favicon_logo.html:2
+#, python-format
+msgid "%(favicon)s and %(profile)s pictures by %(author)s licensed under %(licence)s"
+msgstr ""
 
